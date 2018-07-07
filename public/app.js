@@ -24,10 +24,11 @@ document.addEventListener("DOMContentLoaded", event => {
         //     document.getElementById("status").innerText = "Light Switch is  "+data.status;
         // })
 
-        // const realDb = firebase.database().ref('deviceControl/light/status');
-        // realDb.on("value").then(function(snapshot){
-        //     document.getElementById("status").innerText = "Light Switch is  "+snapshot.val();  
-        // })
+        const realDb1 = firebase.database().ref('deviceControl/light');
+        console.log("yes : "+realDb1);
+        realDb1.on("value",function(snapshot){
+            document.getElementById("status").innerText = "Light Switch is  "+snapshot.child("status").val();  
+        })
     }
 
 });
@@ -53,7 +54,8 @@ function switchOnOff(e){
     // onOffPost.update({status : e});
 
     const realDb = firebase.database().ref('deviceControl/light');
-    realDb.set({status:e}).then(function(){
-        document.getElementById("status").innerText = "Light Switch is  "+e;  
-    })
+    realDb.set({status:e});
+    // .then(function(){
+    //     document.getElementById("status").innerText = "Light Switch is  "+e;  
+    // })
 }
