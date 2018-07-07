@@ -1,0 +1,58 @@
+2018-06-24 19:08:23,110 - scope.name - INFO - Info message
+2018-06-24 19:08:23,113 - scope.name - ERROR - Error message
+2018-06-24 19:09:31,847 - scope.name - INFO - Info message
+2018-06-24 19:09:31,850 - scope.name - ERROR - Error message
+2018-06-24 19:10:33,245 - scope.name - INFO - Info message
+2018-06-24 19:10:33,248 - scope.name - ERROR - Error message
+2018-06-24 19:11:47,892 - scope.name - INFO - Info message
+2018-06-24 19:11:47,895 - scope.name - ERROR - Error message
+2018-06-24 19:12:06,014 - scope.name - INFO - Info message
+2018-06-24 19:12:06,017 - scope.name - ERROR - Error message
+2018-06-24 19:14:47,544 - scope.name - INFO - Info message
+2018-06-24 19:14:47,546 - scope.name - ERROR - Error message
+2018-06-24 19:15:20,201 - scope.name - INFO - Info message
+2018-06-24 19:15:20,206 - scope.name - ERROR - Error message
+2018-06-24 19:15:47,876 - scope.name - INFO - Info message
+2018-06-24 19:15:47,888 - scope.name - ERROR - Error message
+2018-06-24 19:16:04,164 - scope.name - INFO - Info message
+2018-06-24 19:16:04,166 - scope.name - ERROR - Error message
+2018-07-01 14:53:59,553 - scope.name - INFO - Info message
+2018-07-01 14:53:59,690 - scope.name - ERROR - Error message
+2018-07-01 14:54:42,728 - scope.name - INFO - Info message
+2018-07-01 14:54:42,736 - scope.name - ERROR - Error message
+2018-07-01 14:56:53,292 - scope.name - INFO - Info message
+2018-07-01 14:56:53,294 - scope.name - ERROR - Error message
+2018-07-01 14:58:56,209 - scope.name - INFO - Info message
+2018-07-01 14:58:56,217 - scope.name - ERROR - Error message
+2018-07-01 14:59:52,258 - scope.name - INFO - Info message
+2018-07-01 14:59:52,260 - scope.name - ERROR - Error message
+2018-07-01 15:06:25,199 - scope.name - INFO - Info message
+2018-07-01 15:06:25,201 - scope.name - ERROR - Error message
+2018-07-01 15:06:52,956 - scope.name - INFO - Info message
+2018-07-01 15:06:52,958 - scope.name - ERROR - Error message
+2018-07-01 15:06:54,241 - scope.name - INFO - Light Status : on
+2018-07-01 15:07:49,307 - scope.name - INFO - Light Status : off
+2018-07-01 15:34:10,230 - scope.name - INFO - Light Status : OFF
+2018-07-01 15:34:13,543 - scope.name - INFO - Light Status : ON
+2018-07-01 15:34:23,718 - scope.name - INFO - Light Status : OFF
+2018-07-01 15:34:34,444 - scope.name - INFO - Light Status : ON
+2018-07-01 15:40:39,581 - scope.name - INFO - Light Status : ON
+2018-07-01 15:40:47,332 - scope.name - INFO - Light Status : OFF
+2018-07-01 15:40:50,712 - scope.name - INFO - Light Status : ON
+2018-07-01 15:40:52,724 - scope.name - INFO - Light Status : OFF
+2018-07-01 15:44:14,509 - scope.name - INFO - Light Status : ON
+2018-07-01 15:44:16,120 - scope.name - INFO - Light Status : OFF
+2018-07-01 15:51:57,581 - scope.name - INFO - Light Status : ON
+2018-07-01 15:52:18,755 - scope.name - INFO - Light Status : OFF
+2018-07-01 15:52:20,586 - scope.name - INFO - Light Status : ON
+2018-07-01 15:52:23,492 - scope.name - INFO - Light Status : OFF
+2018-07-01 15:52:38,244 - scope.name - INFO - Light Status : ON
+2018-07-01 15:52:42,318 - scope.name - INFO - Light Status : OFF
+2018-07-01 15:52:42,552 - scope.name - INFO - Light Status : ON
+2018-07-01 15:52:44,801 - scope.name - INFO - Light Status : OFF
+2018-07-01 15:52:45,036 - scope.name - INFO - Light Status : ON
+2018-07-01 15:52:47,721 - scope.name - INFO - Light Status : OFF
+2018-07-01 16:02:17,253 - scope.name - INFO - Light Status : ON
+2018-07-01 16:02:23,468 - scope.name - INFO - Light Status : OFF
+2018-07-01 16:02:30,587 - scope.name - INFO - Light Status : ON
+2018-07-01 16:02:33,750 - scope.name - INFO - Light Status : OFF
