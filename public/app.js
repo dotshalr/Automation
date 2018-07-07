@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", event => {
     
 
     const app = firebase.app();
-    const db = firebase.firestore();
+    //const db = firebase.firestore();
+    const real_db = firebase.database();
     console.log(app);
     var username = sessionStorage.getItem("username");
     if(username != null && username != undefined){
@@ -15,13 +16,18 @@ document.addEventListener("DOMContentLoaded", event => {
 
         
         
-        const mypost = db.collection('deviceControl').doc('light');
+        // const mypost = db.collection('deviceControl').doc('light');
 
-        mypost.onSnapshot(doc => {
-            const data = doc.data();
-            //document.write(`Switch is :`+ data.status);
-            document.getElementById("status").innerText = "Light Switch is  "+data.status;
-        })
+        // mypost.onSnapshot(doc => {
+        //     const data = doc.data();
+        //     //document.write(`Switch is :`+ data.status);
+        //     document.getElementById("status").innerText = "Light Switch is  "+data.status;
+        // })
+
+        // const realDb = firebase.database().ref('deviceControl/light/status');
+        // realDb.on("value").then(function(snapshot){
+        //     document.getElementById("status").innerText = "Light Switch is  "+snapshot.val();  
+        // })
     }
 
 });
@@ -35,13 +41,19 @@ function googleLogin(){
             document.write(`Hello ${user.displayName}`);
             console.log(user)
             sessionStorage.setItem("username",`${user.displayName}`);
+            document.location.reload();
         })
         .catch(console.log)
 }
 
 function switchOnOff(e){
     console.log(e);
-    const db = firebase.firestore();
-    const onOffPost = db.collection('deviceControl').doc('light');
-    onOffPost.update({status : e});
+    // const db = firebase.firestore();
+    // const onOffPost = db.collection('deviceControl').doc('light');
+    // onOffPost.update({status : e});
+
+    const realDb = firebase.database().ref('deviceControl/light');
+    realDb.set({status:e}).then(function(){
+        document.getElementById("status").innerText = "Light Switch is  "+e;  
+    })
 }
